@@ -1,0 +1,93 @@
+
+
+#main-nav {
+  height: 40px;
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+  
+  border-radius: 4px;
+  z-index: 1;
+  background: grey;
+  width: 960px;
+  text-align: center;
+  
+}
+
+nav li {
+	display: inline-block;
+	color: white;
+	border-left: 1px solid;
+	line-height:40px;
+	padding: 0 30px;
+	
+}
+
+#main {
+	height: 500px;
+	
+	background-image: url("images/hero.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+h1 {
+	text-align: center;
+}
+
+h2 ,h3{
+	color: white;
+}
+/*
+p{
+	color: white;
+	font-size: 50px;
+}
+*/
+.block{
+	padding: 1px;
+	width: 329px;
+	height: 200px;
+	border:1px solid white;
+}
+
+.float {
+	float: left;
+}
+
+.shop {
+	font-size: 12px;	
+	width: 329px;
+
+}
+ul {
+	list-style-type: none;
+}
+
+.one {background: url("images/promo_30_years.jpg")center center;
+
+}
+.two { background: url("images/promo_iphone5c.jpg") center center; }
+.three{ background: url("images/promo_iphone5s.jpg") center center; }
+.four{ background: url("images/promo_supplier_responsibility.jpg") center center;}
+
+footer {
+	float: left;
+	width: 100%;
+	background: #fff;
+	
+	
+}
+
+a:hover{
+	text-decoration: none;
+	color: blue;
+}
+p.primary-footer {
+	
+	font-size: 12px;
+	
+}
+
+
